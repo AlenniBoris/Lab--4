@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 #include <cstring>
 
 using namespace std;
@@ -39,10 +38,9 @@ bool HalfOfLettersAreVowels(char* str, int begin, int end) {
             num++;
     return length == 2*num;
 }
-bool OnlyOfLatin(char* str, int begin, int end) {
+bool OnlyOfLatin(const char* str, int begin, int end) {
     if (begin > end)
         return false;
-
     for (int i = begin; i <= end; ++i)
         if (str[i] < 'a' || str[i] > 'z')
             if (str[i] < 'A' || str[i] > 'Z')
@@ -60,7 +58,6 @@ void Task2(char* s1) {
     int numberVow = 0;
     int num = 0;
     int length = strlength(s1);
-
     for(int i = 0; i < length; ++i) {
         if ((s1[i] == ' ') || (s1[i] == '\0')) {
             end = i - 1;
@@ -83,8 +80,6 @@ int main() {
     char s2[255];
     cout << "Enter word or symbol for search: ";
     cin.getline(s2, 255);
-
     Task1(s1,s2);
     Task2(s1);
-
 }
