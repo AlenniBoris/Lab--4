@@ -31,7 +31,7 @@ bool isVowel(char a) {
         return true;
     return false;
 }
-bool HalfOfLettersInTheWordAreVowels(char* str, int begin, int end) {
+bool HalfOfLettersAreVowels(char* str, int begin, int end) {
     int length = end - begin + 1;
     int num = 0;
     for (int i = begin; i <= end; i++)
@@ -39,7 +39,7 @@ bool HalfOfLettersInTheWordAreVowels(char* str, int begin, int end) {
             num++;
     return length == 2*num;
 }
-bool doesConsistOnlyOfLatin(char* str, int begin, int end) {
+bool OnlyOfLatin(char* str, int begin, int end) {
     if (begin > end)
         return false;
 
@@ -64,9 +64,9 @@ void Task2(char* s1) {
     for(int i = 0; i < length; ++i) {
         if ((s1[i] == ' ') || (s1[i] == '\0')) {
             end = i - 1;
-            if (doesConsistOnlyOfLatin(s1, begin, end)) {
+            if (OnlyOfLatin(s1, begin, end)) {
                 num++;
-                if (HalfOfLettersInTheWordAreVowels(s1, begin, end))
+                if (HalfOfLettersAreVowels(s1, begin, end))
                     numberVow++;
             }
             begin = i + 1;
