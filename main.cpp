@@ -26,7 +26,6 @@ int Task1(char *s1,char *s2){
     return 0;
 }
 
-
 bool isVowel(char a) {
     if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
         return true;
@@ -50,13 +49,11 @@ bool doesConsistOnlyOfLatin(char* str, int begin, int end) {
                 return false;
     return true;
 }
-
 int strlength(char* s1) {
     int i = 0;
     while (s1[i] != '\0') { i++; }
     return i + 1;
 }
-
 void Task2(char* s1) {
     int begin = 0;
     int end = 0;
