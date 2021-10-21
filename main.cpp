@@ -24,7 +24,6 @@ int Task1(char *s1,char *s2){
     }
     return 0;
 }
-
 bool isVowel(char a) {
     if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
         return true;
@@ -63,8 +62,9 @@ void Task2(char* s1) {
             end = i - 1;
             if (OnlyOfLatin(s1, begin, end)) {
                 num++;
-                if (HalfOfLettersAreVowels(s1, begin, end))
+                if (HalfOfLettersAreVowels(s1, begin, end)){
                     numberVow++;
+                }
             }
             begin = i + 1;
         }
@@ -72,7 +72,6 @@ void Task2(char* s1) {
     cout << "\nThe number of words: " << num;
     cout << "\nThe number of words where the half of letters are vowel: " << numberVow;
 }
-
 int main() {
     char s1[255];
     cout << "Enter your phrase: ";
