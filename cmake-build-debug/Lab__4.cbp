@@ -85,6 +85,15 @@
 		<Unit filename="C:/Proga for BSU/Lab--4/main.cpp">
 			<Option target="Lab__4"/>
 		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/task1.h">
+			<Option target="Lab__4"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/task2.h">
+			<Option target="Lab__4"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/tests.h">
+			<Option target="Lab__4"/>
+		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
