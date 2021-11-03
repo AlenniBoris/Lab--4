@@ -2,34 +2,42 @@
 #ifndef LAB__4_TASK2_H
 #define LAB__4_TASK2_H
 
-
 using namespace std;
 
 bool isVowel(char a) {
-    if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U')
+    if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U'){
         return true;
+    }
     return false;
 }
 bool HalfOfLettersAreVowels(char* str, int begin, int end) {
     int length = end - begin + 1;
     int num = 0;
-    for (int i = begin; i <= end; i++)
-        if (isVowel(str[i]))
+    for (int i = begin; i <= end; i++){
+        if (isVowel(str[i])){
             num++;
+        }
+    }
     return length == 2*num;
 }
 bool OnlyOfLatin(const char* str, int begin, int end) {
-    if (begin > end)
+    if (begin > end){
         return false;
-    for (int i = begin; i <= end; ++i)
-        if (str[i] < 'a' || str[i] > 'z')
-            if (str[i] < 'A' || str[i] > 'Z')
+    }
+    for (int i = begin; i <= end; ++i){
+        if (str[i] < 'a' || str[i] > 'z'){
+            if (str[i] < 'A' || str[i] > 'Z'){
                 return false;
+            }
+        }
+    }
     return true;
 }
 int strlength(char* s1) {
     int i = 0;
-    while (s1[i] != '\0') { i++; }
+    while (s1[i] != '\0') {
+        i++;
+    }
     return i + 1;
 }
 int Task2(char* s1) {
@@ -53,16 +61,6 @@ int Task2(char* s1) {
     cout << "\nThe number of words: " << num;
     cout << "\nThe number of words where the half of letters are vowel: " << numberVow;
     return num;
-}
-int main1() {
-    char s1[255];
-    cout << "Enter your phrase: ";
-    cin.getline(s1, 255);
-    char s2[255];
-    cout << "Enter word or symbol for search: ";
-    cin.getline(s2, 255);
-    Task2(s1);
-    return 0;
 }
 
 #endif //LAB__4_TASK2_H

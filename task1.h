@@ -23,7 +23,7 @@ int Task1(char *s1,char *s2){
             break;
         }
     }
-    return 0;
+    return i;
 }
 
 #endif //LAB__4_TASK1_H

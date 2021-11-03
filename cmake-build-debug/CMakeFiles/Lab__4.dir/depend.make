@@ -4,5 +4,28 @@
 CMakeFiles\Lab__4.dir\main.cpp.obj: ..\main.cpp
 CMakeFiles\Lab__4.dir\main.cpp.obj: ..\task1.h
 CMakeFiles\Lab__4.dir\main.cpp.obj: ..\task2.h
-CMakeFiles\Lab__4.dir\main.cpp.obj: ..\tests.h
+
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-death-test.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-matchers.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-message.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-param-test.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-printers.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-test-part.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest-typed-test.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest_pred_impl.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\gtest_prod.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\custom\gtest-port.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\custom\gtest-printers.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-death-test-internal.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-filepath.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-internal.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-param-util.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-port-arch.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-port.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-string.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\googletest\googletest\include\gtest\internal\gtest-type-util.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\task1.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\task2.h
+CMakeFiles\Lab__4.dir\tests.cpp.obj: ..\tests.cpp
 

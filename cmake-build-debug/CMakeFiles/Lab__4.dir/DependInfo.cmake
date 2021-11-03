@@ -9,11 +9,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Proga for BSU/Lab--4/main.cpp" "C:/Proga for BSU/Lab--4/cmake-build-debug/CMakeFiles/Lab__4.dir/main.cpp.obj"
+  "C:/Proga for BSU/Lab--4/tests.cpp" "C:/Proga for BSU/Lab--4/cmake-build-debug/CMakeFiles/Lab__4.dir/tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../googletest/googletest/include"
+  "../googletest/googletest"
   )
 
 # The set of dependency files which are needed:
