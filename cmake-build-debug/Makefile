@@ -216,6 +216,84 @@ gtest_main\fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\build
 .PHONY : gtest_main\fast
 
+Tasks\task1.obj: Tasks\task1.cpp.obj
+.PHONY : Tasks\task1.obj
+
+# target to build an object file
+Tasks\task1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task1.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task1.cpp.obj
+.PHONY : Tasks\task1.cpp.obj
+
+Tasks\task1.i: Tasks\task1.cpp.i
+.PHONY : Tasks\task1.i
+
+# target to preprocess a source file
+Tasks\task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task1.cpp.i
+.PHONY : Tasks\task1.cpp.i
+
+Tasks\task1.s: Tasks\task1.cpp.s
+.PHONY : Tasks\task1.s
+
+# target to generate assembly for a file
+Tasks\task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task1.cpp.s
+.PHONY : Tasks\task1.cpp.s
+
+Tasks\task2.obj: Tasks\task2.cpp.obj
+.PHONY : Tasks\task2.obj
+
+# target to build an object file
+Tasks\task2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task2.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task2.cpp.obj
+.PHONY : Tasks\task2.cpp.obj
+
+Tasks\task2.i: Tasks\task2.cpp.i
+.PHONY : Tasks\task2.i
+
+# target to preprocess a source file
+Tasks\task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task2.cpp.i
+.PHONY : Tasks\task2.cpp.i
+
+Tasks\task2.s: Tasks\task2.cpp.s
+.PHONY : Tasks\task2.s
+
+# target to generate assembly for a file
+Tasks\task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\Tasks\task2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tasks\task2.cpp.s
+.PHONY : Tasks\task2.cpp.s
+
+Tests\tests.obj: Tests\tests.cpp.obj
+.PHONY : Tests\tests.obj
+
+# target to build an object file
+Tests\tests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tests\tests.cpp.obj
+.PHONY : Tests\tests.cpp.obj
+
+Tests\tests.i: Tests\tests.cpp.i
+.PHONY : Tests\tests.i
+
+# target to preprocess a source file
+Tests\tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tests\tests.cpp.i
+.PHONY : Tests\tests.cpp.i
+
+Tests\tests.s: Tests\tests.cpp.s
+.PHONY : Tests\tests.s
+
+# target to generate assembly for a file
+Tests\tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\Tests\tests.cpp.s
+.PHONY : Tests\tests.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -240,33 +318,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-tests.obj: tests.cpp.obj
-.PHONY : tests.obj
-
-# target to build an object file
-tests.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\tests.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\tests.cpp.obj
-.PHONY : tests.cpp.obj
-
-tests.i: tests.cpp.i
-.PHONY : tests.i
-
-# target to preprocess a source file
-tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\tests.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\tests.cpp.i
-.PHONY : tests.cpp.i
-
-tests.s: tests.cpp.s
-.PHONY : tests.s
-
-# target to generate assembly for a file
-tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__4.dir\tests.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Tests_run.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Google_Tests_run.dir\tests.cpp.s
-.PHONY : tests.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -284,12 +335,18 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... Tasks/task1.obj
+	@echo ... Tasks/task1.i
+	@echo ... Tasks/task1.s
+	@echo ... Tasks/task2.obj
+	@echo ... Tasks/task2.i
+	@echo ... Tasks/task2.s
+	@echo ... Tests/tests.obj
+	@echo ... Tests/tests.i
+	@echo ... Tests/tests.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... tests.obj
-	@echo ... tests.i
-	@echo ... tests.s
 .PHONY : help
 
 

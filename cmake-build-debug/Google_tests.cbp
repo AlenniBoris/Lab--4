@@ -364,6 +364,23 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Proga for BSU/Lab--4/Tasks/task1.cpp">
+			<Option target="Lab__4"/>
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/Tasks/task1.h">
+			<Option target="Lab__4"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/Tasks/task2.cpp">
+			<Option target="Lab__4"/>
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/Tasks/task2.h">
+			<Option target="Lab__4"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--4/Tests/tests.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--4/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -381,17 +398,6 @@
 		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--4/main.cpp">
 			<Option target="Lab__4"/>
-		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--4/task1.h">
-			<Option target="Lab__4"/>
-			<Option target="Google_Tests_run"/>
-		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--4/task2.h">
-			<Option target="Lab__4"/>
-		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--4/tests.cpp">
-			<Option target="Lab__4"/>
-			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -332,15 +332,27 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Proga for BSU/Lab--4/task1.h
-
-C:/Proga for BSU/Lab--4/task2.h
-
-C:/Proga for BSU/Lab--4/tests.cpp
-gtest/gtest.h
-C:/Proga for BSU/Lab--4/gtest/gtest.h
+C:/Proga for BSU/Lab--4/Tasks/task1.cpp
+iostream
+-
 task1.h
-C:/Proga for BSU/Lab--4/task1.h
+C:/Proga for BSU/Lab--4/Tasks/task1.h
+
+C:/Proga for BSU/Lab--4/Tasks/task1.h
+
+C:/Proga for BSU/Lab--4/Tasks/task2.cpp
+iostream
+C:/Proga for BSU/Lab--4/Tasks/iostream
 task2.h
-C:/Proga for BSU/Lab--4/task2.h
+C:/Proga for BSU/Lab--4/Tasks/task2.h
+
+C:/Proga for BSU/Lab--4/Tasks/task2.h
+
+C:/Proga for BSU/Lab--4/Tests/tests.cpp
+gtest/gtest.h
+C:/Proga for BSU/Lab--4/Tests/gtest/gtest.h
+../Tasks/task1.h
+C:/Proga for BSU/Lab--4/Tasks/task1.h
+../Tasks/task2.h
+C:/Proga for BSU/Lab--4/Tasks/task2.h
 
