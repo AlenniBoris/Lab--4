@@ -6,11 +6,8 @@ using namespace std;
 bool isVowel(char a){
     char VowelLetter[] = {'a','e','i','o','u','A','E','I','O','U'};
     for (int j = 0; j<=9 ; ++j) {
-        if (a == VowelLetter[j]){
-            return true;
-        }
+        return (a == VowelLetter[j]) ? true: false;
     }
-    return false;
 }
 bool HalfOfLettersAreVowels(char* str, int begin, int end) {
     int length = end - begin + 1;
